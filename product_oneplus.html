@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+	
+	<head>
+		<title>ProductPage</title>
+		
+		<meta charset="UTF-8">
+
+		
+
+		<script src="https://kit.fontawesome.com/e92e36d814.js" crossorigin="anonymous"></script>
+
+		<link rel = "stylesheet" href="style_product.css">
+		
+		<script src="script_product.js"></script>
+	
+	</head>
+	
+	<body>
+		<div class = "container">
+			<div class = "header">
+				
+				<div class = "topHead">
+					
+					<div class= "logo">
+						<img src="logo3.jpg"/>						
+					</div>
+					
+					<div class= "search">
+						<div class = "searchbar">
+							<input placeholder="Search..." id = "searchBar" name="searchBar" type="text"/>		
+							<button onclick="transfer()"><i class = "fa-solid fa-magnifying-glass glass"></i></button>
+						</div>
+					</div>
+					
+					<div class="func">
+						<a href="AboutUs.html"><i class="fa-solid fa-user"></i></a>
+						<a class = "cart-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+					</div>
+				
+				</div>
+				<div class= "lowHead">
+					<a href="productBrowse.html">All</a>
+					<a href="productBrowse _Phone.html">Phones</a>
+					<a href="productBrowse _Laptop.html">Laptops</a>
+					<a href="productBrowse _Camera.html">Camera</a>				
+				</div>
+			
+			
+			</div>
+		
+			<div class = "content">
+			
+				<div class = "productImg">
+					<img id="product" src='./mobiles/OnePlus131.png' alt="One plus">
+				
+				</div>
+				<div class = "productDisc">
+				<br><br>
+				<h1>One Plus 13</h1><br>
+				
+				<p>
+					 Smarter with OnePlus AI (12GB RAM, 256GB Storage Midnight Ocean) 
+	
+					<br><br>
+	
+					The new Snapdragon® 8 Elite Mobile Platform is the heart that powers the mind of OnePlus AI. With a faster Neural Engine, an improved CPU and GPU, and a big jump in memory bandwidth, your gaming, entertainment, and digital life has never been faster or smoother.
+				
+				</p>
+				<br>
+					<h2>Price: 949$</h2>				
+				<br>
+				<div class = "add_cart">
+					<button onclick="">Add to Cart  <i class="fa-solid fa-cart-plus" ></i></button>
+				</div>
+				</div>			
+			
+			</div>
+		
+		</div>
+		
+		<div class = "cartTab">
+			<h1>Shopping Cart</h1>
+			<div class = "listCart">
+				
+			</div>
+			<div class="scbtn">
+				<button class = "close">CLOSE</button>
+				<button class = "cOut">CHECK OUT</button>
+			</div>
+		</div>
+		
+		<script src="cartp.js"></script>
+		
+		<script src="transfer1.js"></script>
+	</body>
+</html>

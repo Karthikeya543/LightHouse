@@ -1,0 +1,98 @@
+<!Doctype html>
+<html>
+	
+	<head>
+		<title>ProductPage</title>
+		
+		<meta charset="UTF-8">
+
+		
+
+		<script src="https://kit.fontawesome.com/e92e36d814.js" crossorigin="anonymous"></script>
+
+		<link rel = "stylesheet" href="style_product.css">
+		
+		<script src="script_product.js"></script>
+	
+	</head>
+	
+	<body>
+		<div class = "container">
+			<div class = "header">
+				
+				<div class = "topHead">
+					
+					<div class= "logo">
+						<img src="logo3.jpg"/>						
+					</div>
+					
+					<div class= "search">
+						<div class = "searchbar">
+							<input placeholder="Search..." id = "searchBar" name="searchBar" type="text"/>		
+							<button onclick="transfer()"><i class = "fa-solid fa-magnifying-glass glass"></i></button>
+						</div>
+					</div>
+					
+					<div class="func">
+						<a href="AboutUs.html"><i class="fa-solid fa-user"></i></a>
+						<a class = "cart-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+					</div>
+				
+				</div>
+				<div class= "lowHead">
+					<a href="productBrowse.html">All</a>
+					<a href="productBrowse _Phone.html">Phones</a>
+					<a href="productBrowse _Laptop.html">Laptops</a>
+					<a href="productBrowse _Camera.html">Camera</a>				
+				</div>
+			
+			
+			</div>
+		
+			<div class = "content">
+			
+				<div class = "productImg">
+					<img id="product" src='./laptops/IdeaPad.jpg' alt="IdeaPad">
+				
+				</div>
+				<div class = "productDisc">
+				<br><br>
+				<h1>Lenovo Idea Pad</h1><br>
+				
+				<p>
+					The Lenovo IdeaPad series offers a diverse range of laptops tailored to various user needs, from students and professionals to casual users. Models like the IdeaPad 1 are designed for everyday tasks, featuring efficient processors and ample storage options. The IdeaPad Slim 3i stands out with its thin and light design, available in 14-inch and 15.6-inch screen sizes, and is equipped with features like a webcam privacy shutter and optional fingerprint reader for enhanced security. 
+
+
+
+					<br><br>
+	
+					For those seeking versatility, the IdeaPad Flex 5i serves as a 2-in-1 convertible laptop, allowing seamless transitions between laptop and tablet modes. Across the series, Lenovo emphasizes portability, user-friendly features, and reliable performance, making the IdeaPad lineup a solid choice for a wide array of computing needs.
+				
+				</p>
+				<br>
+					<h2>Price: 350$</h2>				
+				<br>
+				<div class = "add_cart">
+					<button onclick="">Add to Cart  <i class="fa-solid fa-cart-plus" ></i></button>
+				</div>
+				</div>			
+			
+			</div>
+		</div>
+		
+		<div class = "cartTab">
+			<h1>Shopping Cart</h1>
+			<div class = "listCart">
+				
+			</div>
+			<div class="scbtn">
+				<button class = "close">CLOSE</button>
+				<button class = "cOut">CHECK OUT</button>
+			</div>
+		</div>
+		
+		<script src="cartp.js"></script>
+		
+		<script src="transfer1.js"></script>
+	</body>
+</html>

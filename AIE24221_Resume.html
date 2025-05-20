@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<style>
+    body
+    {
+        background-color: #b3c7f7; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container
+    {
+        background: #fff;
+        position:relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 1000px;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .container aside 
+    {
+        background:#0073e6 ;
+        position: relative;
+        padding : 40px;
+    }
+
+    img
+    {
+        padding-left: 30px;
+        align-content: center;
+        height: 75%;
+        width: 75%;
+    }
+
+    .profile h2 , h3
+    {
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .profile h2 span
+    {
+        color: #fff;
+        text-align: center;
+        font-size: small; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .container .right_side
+    {
+        background: #fff;
+        position: relative;
+        padding: 40px;
+    }
+
+    .right_side h3
+    {
+        color: #0073e6;
+        text-align: left;
+    }
+
+    .right_side p1
+    {
+        color: black;
+        font-size: medium;   
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .years
+    {
+        color: #0073e6;
+        width: 100px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    section
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contantinfo
+    {
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic; 
+        letter-spacing: 1px;
+        pointer-events: auto;
+    }
+
+    .languages
+    {
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+
+    footer
+    {
+        background-color: #0073e6;
+        color: #fff;
+        font-size: small;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    header
+    {
+        background-color: #0073e6;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+</style>
+
+
+<html>
+    <head> 
+        <title> Resume </title>
+        <script src="https://kit.fontawesome.com/b580bcd054.js" crossorigin="anonymous"></script>
+    </head>
+
+
+  <body> 
+        <div class="container" >
+            <aside>
+                <header><h3>  </h3> </header>
+                <div class="profile"> 
+                    <div class="img"> <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"> </div>
+                    <h2 > Surya Tejesh.G <br> <span>  Btech Student  <span> </h2> <hr color="white">
+                </div>   
+                
+                <div class="contantinfo"> 
+                    <h3> Contacts Info </h3>
+                    <ul>
+                        
+                            <span> <i class="fa-solid fa-phone" aria-hidden="true"></i> </span>
+                            <span>  +91 77804 20499  </span> <br>
+
+                            <span> <i class="fa-solid fa-envelope"></i> </span>
+                            <span> metro@gmail.com  </span>  <br>
+
+                            <span> <i class="fa-brands fa-linkedin"></i> </span>
+                            <span> www.linkdin.com/me </span> <br>
+                            
+                            <span> <i class="fa-solid fa-globe"></i> </span>
+                            <span> www.mywebsite.com </span> <br>
+
+                            <span> <i class="fa-solid fa-location-dot"></i> </span>
+                            <span> Bengaluru,Karnataka, India </span> <br>
+                    </ul> 
+                </div>  <hr color="white">
+
+                <div class="languages"> 
+                    <h3> Languages </h3>
+                        <ul>
+                            <li> English </li>
+                            <li> Telugu </li>
+                            <li> Hindi </li>
+                        </ul> 
+                    </div>
+            </aside>
+            
+            <div class="right_side"> 
+                <section> 
+                    <h3> <i class="fa-solid fa-user"></i> Profile </h3> <hr color="#0073e6">
+                    <p> I'm Surya Tejesh, first-year Computer Science and Engineering student with a strong foundation in programming,
+					problem-solving, and analytical thinking. Eager to explore various domains within computer science 
+					including software development, data structures, and artificial intelligence.
+					Seeking opportunities to apply theoretical knowledge through hands-on projects, internships, and collaborative experiences. </p>
+                </section>
+
+                <section>
+                    <h3><i class="fa-solid fa-user-graduate"></i> Education </h3> <hr color="#0073e6">
+                    <table>
+                        <tr> 
+                            <td class="years" > 2021-22 <td>
+                            <td> Class 10th CBSE, <i>Delhi Public School,Bengaluru</i> </td>     
+                        </tr>
+                        <tr> 
+                            <td class="years">2022-24 <td>
+                            <td> Class 12th CBSE, <i> Cambridge Secondary highschool, Bengaluru </i> </td>
+                        </tr>
+                        <tr> 
+                            <td class="years"> 2024-28 <td>
+                            <td> Btech. CSE-Artificial Intelligence, <i> Amrita University, Bengaluru </i></td> 
+                        </tr>
+
+                    </table> 
+                </section>
+
+                <section > 
+                    <h3> <i class="fa-solid fa-gear"></i> Professional Skills </h3> <hr color="#0073e6">
+                    <table>
+                        <tr><td> HTML </td></tr>
+                        <tr> <td> CSS </td> </tr>
+                        <tr> <td> JAVA SCRIPT </td> </tr>
+                        <tr> <td> C language </td>  </tr>
+                        <tr> <td> Matlab </td>  </tr>
+                        <tr> <td></td>  </tr>
+                    </table>    
+                </section>
+
+                <section>
+                    <h3><i class="fa-solid fa-keyboard"></i> Projects </h3> <hr color="#0073e6">
+                    <ul>
+                        <li> Expanses tracker using JAVA. </li>
+                        <li> Programmed a to-do app that allows users to make lists, Added a function that allows users to cross items off their list </li>
+                        <li> Snake+ game using jack language </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Interests </h3> <hr color="#0073e6">
+                    <table>
+                        <tr> <td> Reading Books </td>  </tr>
+                        <tr> <td> Coding </td> </tr>
+                        <tr><td> Cooking </td></tr>
+                        <tr> <td> Watching Movies </td> </tr>
+                        <tr> <td></td>  </tr>
+                    </table>  
+                </section>
+            </div>
+
+            <footer> <i> Amrita Vishwa Vidyapeetham @ Bengaluru, India   </i> </footer>
+        </div>
+    </body>
+</html>

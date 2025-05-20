@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+	
+	<head>
+		<title>ProductPage</title>
+		
+		<meta charset="UTF-8">
+
+		
+
+		<script src="https://kit.fontawesome.com/e92e36d814.js" crossorigin="anonymous"></script>
+
+		<link rel = "stylesheet" href="style_product.css">
+		
+		<script src="script_product.js"></script>
+	
+	</head>
+	
+	<body>
+		<div class = "container">
+			<div class = "header">
+				
+				<div class = "topHead">
+					
+					<div class= "logo">
+						<img src="logo3.jpg"/>						
+					</div>
+					
+					<div class= "search">
+						<div class = "searchbar">
+							<input placeholder="Search..." id = "searchBar" name="searchBar" type="text"/>		
+							<button onclick="transfer()"><i class = "fa-solid fa-magnifying-glass glass"></i></button>
+						</div>
+					</div>
+					
+					<div class="func">
+						<a href="AboutUs.html"><i class="fa-solid fa-user"></i></a>
+						<a class="cart-shopping"><i class="fa-solid fa-cart-shopping"></i></a>
+					</div>
+				
+				</div>
+				<div class= "lowHead">
+					<a href="productBrowse.html">All</a>
+					<a href="productBrowse _Phone.html">Phones</a>
+					<a href="productBrowse _Laptop.html">Laptops</a>
+					<a href="productBrowse _Camera.html">Camera</a>				
+				</div>
+			
+			
+			</div>
+		
+			<div class = "content">
+			
+				<div class = "productImg">
+					<img id="product" src="./cameras/eosr3/EOSR3.png" alt="eosr3">
+				
+				</div>
+				<div class = "productDisc">
+				<br><br>
+				<h1>Canon EOS R3</h1><br>
+				
+				<p>
+					Made for the best professionals in the field, the highly anticipated EOS R3 comes with a robust ergonomic design for professional 
+					handling, plus new and improved autofocus features powered by deep learning technology, moviemaking features for high quality
+					videos and lean production workflows, and advanced communication features for high-speed image transfers.
+	
+					<br><br>
+					Up to 30 fps continuous shooting with AF/AE tracking
+					Eye Control AF + New Vehicle Priority AF
+					6K RAW recording + 4K movie with 6K oversampling
+
+				</p>
+				<br>
+					<h2>Price: 3,999$</h2>				
+				<br>
+				<div class = "add_cart">
+					<button onclick="">Add to Cart  <i class="fa-solid fa-cart-plus" ></i></button>
+				</div>
+				</div>			
+			
+			</div>
+		</div>
+		
+		<div class = "cartTab">
+			<h1>Shopping Cart</h1>
+			<div class = "listCart">
+				
+			</div>
+			<div class="scbtn">
+				<button class = "close">CLOSE</button>
+				<button class = "cOut">CHECK OUT</button>
+			</div>
+		</div>
+		
+		<script src="cartp.js"></script>
+		<script src="transfer1.js"></script>
+		
+	</body>
+</html>
